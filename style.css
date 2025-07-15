@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #222;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+main {
+  padding: 2rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.skill-bar .bar {
+  height: 10px;
+  background-color: #ccc;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.bar.html { width: 90%; background-color: #e34c26; }
+.bar.css { width: 85%; background-color: #264de4; }
+.bar.js { width: 80%; background-color: #f0db4f; }
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
